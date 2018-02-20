@@ -1,2 +1,128 @@
 First text file
-yuio
+
+
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 ~
+$ cd
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 ~
+$ cd /c
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c
+$ ls
+'$360Section'/                     Notepad++/
+'$GetCurrent'/                     pagefile.sys
+'$Recycle.Bin'/                    PerfLogs/
+'$WINRE_BACKUP_PARTITION.MARKER'   PHP/
+ Android/                         'Program Files'/
+ bootmgr                          'Program Files (x86)'/
+ BOOTNXT                           ProgramData/
+'Documents and Settings'@          Recovery/
+ drivers/                          swapfile.sys
+ found.000/                       'System Volume Information'/
+ Gradle/                           TurboC4/
+ hiberfil.sys                      Users/
+ inetpub/                          Windows/
+ Intel/                            Windows10Upgrade/
+ MSOCache/                         xam/
+'My Web Sites'/                    xampp/
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c
+$ cd PHP/
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP
+$ ls
+ dreamweaver_8/     'PHP5 and MySQL Bible.pdf'
+ php_manual_en.chm   xampp-win32-1.6.8-installer.exe*
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP
+$ git config --global user.name "charmihmehta"
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP
+$ git config --global user.email charmimehta15@gmail.com
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP
+$ git clone https://github.com/Charmihmehta/gitTest.git
+Cloning into 'gitTest'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP
+$ ls
+ dreamweaver_8/   php_manual_en.chm           xampp-win32-1.6.8-installer.exe*
+ gitTest/        'PHP5 and MySQL Bible.pdf'
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP
+$ cd gitTest/
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP/gitTest (master)
+$ ls
+README.md
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP/gitTest (master)
+$ ls
+gittext.txt  README.md
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP/gitTest (master)
+$ git add gittext.txt
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP/gitTest (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   gittext.txt
+
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP/gitTest (master)
+$ git commit -m "commit my text file -1" gittext.txt
+[master a11900f] commit my text file -1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 gittext.txt
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP/gitTest (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 296 bytes | 29.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Charmihmehta/gitTest.git
+   b90ac13..a11900f  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP/gitTest (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   gittext.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP/gitTest (master)
+$ git commit -m "commit my text file -2" gittext.txt
+[master ac5a4f1] commit my text file -2
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP/gitTest (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 302 bytes | 30.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Charmihmehta/gitTest.git
+   a11900f..ac5a4f1  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Charmi Mehta@DESKTOP-QS0I1SG MINGW64 /c/PHP/gitTest (master)
+$
